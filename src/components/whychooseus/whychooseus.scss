@@ -1,0 +1,48 @@
+.why {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: rgb(236, 233, 233);
+
+  .container {
+  
+    .display-1 {
+      font-size: 3rem;
+      font-weight: 900;
+      text-align: center;
+      margin-bottom: 18px;
+    }
+  
+    .lead {
+      font-weight: 500;
+      text-align: center;
+    }
+  
+    .row {
+      padding-top: 48px;
+  
+      .col {
+  
+        .card {
+          border: none;
+          background: transparent;
+
+          .card-title {
+            font-weight: 700;
+            margin-bottom: 16px
+          }
+          
+          .card-text {
+            font-size: 18px;
+            font-weight: 500;
+            color: rgb(73, 73, 73);
+          }
+
+          img {
+          padding: 48px;
+          }
+        }
+      }
+    }
+  }
+
+}

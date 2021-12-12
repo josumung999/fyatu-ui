@@ -1,22 +1,3 @@
-export const heroWords = [
-	{
-		id: 0,
-		text: "Créer les cartes virtuels"
-	},
-	{
-		id: 1,
-		text: "Recharger les mobiles"
-	},
-	{
-		id: 2,
-		text: "Echanger le solde Perfect Money"
-	},
-	{
-		id: 3,
-		text: "Acheter et dépenser ses Bitcoins"
-	}
-]
-
 export const heroImages = [
 	{
 		id: 0,
@@ -47,13 +28,13 @@ export const whyUseUs = [
 		id: 1,
 		img: "https://sandbox.fyatu.com/assets/img/icons/no-offer2.png",
 		title: "Rapidité",
-		desc: " Conçu pour être une solution rapide et instantanée aux besoins les plus urgents, Fyatu fourni les services d'achat, de recharge et de transfert d'argent quasi instantanés pour les clients et les business."
+		desc: "Conçu pour être une solution rapide et instantanée aux besoins les plus urgents, Fyatu fourni les services d'achat, de recharge et de transfert d'argent quasi instantanés pour les clients et les business."
 	},
 	{
 		id: 2,
 		img: "https://sandbox.fyatu.com/assets/img/icons/no-offer3.png",
 		title: "Fiabilité",
-		desc: " Nous savons à quel point l'argent est difficile à gagner, Fyatu agit en toute transparence, crédibilité et loyauté envers ses clients. Aucun centime du client ne peut se perdre dans le néant."
+		desc: "Nous savons à quel point l'argent est difficile à gagner, Fyatu agit en toute transparence, crédibilité et loyauté envers ses clients. Aucun centime du client ne peut se perdre dans le néant."
 	},
 ]
 
