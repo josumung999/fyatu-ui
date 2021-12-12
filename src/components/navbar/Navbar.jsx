@@ -2,7 +2,7 @@ import './navbar.scss'
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <div className="left">
           <a href="!#" className="navbar-brand">
