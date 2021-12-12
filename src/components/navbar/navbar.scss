@@ -1,0 +1,41 @@
+.navbar {
+  height: 70px !important;
+
+  .nav-item {
+    font-size: 18px;
+    font-weight: 500;
+
+    .nav-link {
+      color: black;
+    }
+  }
+
+  .right {
+    .btn {
+      color: #893168;
+      border-radius: 2rem;
+    }
+
+    .btn-outline {
+      border: 1px solid #893168;
+
+    }
+    
+    .btn-outline:hover {
+      background-color: #893168;
+      color: white,
+    }
+
+    .btn-full {
+      background-color: #893168;
+      color: white,
+    }
+
+    .btn-full:hover {
+      border: 1px solid #893168;
+      color: #893168;
+      background-color: white;
+    }
+  }
+
+}

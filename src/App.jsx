@@ -1,6 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
-import 'bootstrap';
-
 
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/Hero';
@@ -14,7 +13,6 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
     <div className="App">
-      <h1 className="display-1">Hello World</h1>
       <Navbar />
       <Hero />
       <WhyChoosUs />
