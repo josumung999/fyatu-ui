@@ -104,56 +104,20 @@ export const countries = [
 ]
 
 export const footerLinks = [
-	{
-		services: [
-			{
-				id: 0,
-				text: "Carte Virtuelles"
-			},
-			{
-				id: 1,
-				text: "Transfert d'Argent"
-			},
-			{
-				id: 2,
-				text: "Recharge Mobile"
-			},
-			{
-				id: 3,
-				text: "Cartes Cadeaux"
-			},
-		],
-		informations: [
-			{
-				id: 0,
-				text: "Affiliation"
-			},
-			{
-				id: 1,
-				text: "Tarif"
-			},
-			{
-				id: 2,
-				text: "FAQ"
-			},
-			{
-				id: 3,
-				text: "Blog"
-			},
-		],
-		company: [
-			{
-				id: 0,
-				text: "A Propos"
-			},
-			{
-				id: 1,
-				text: "Contact"
-			},
-			{
-				id: 2,
-				text: "Support"
-			}
-		]
-	}
+  {
+    id: 0,
+    text: "Carte Virtuelles"
+  },
+  {
+    id: 1,
+    text: "Transfert d'Argent"
+  },
+  {
+    id: 2,
+    text: "Recharge Mobile"
+  },
+  {
+    id: 3,
+    text: "Cartes Cadeaux"
+  },
 ]

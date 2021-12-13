@@ -1,0 +1,18 @@
+.footer {
+  padding: 64px 0;
+  background-color: rgb(236, 233, 233);
+
+  .list-group-item {
+    border: none;
+    background: transparent;
+    line-height: 0.8;
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
