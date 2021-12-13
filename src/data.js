@@ -66,153 +66,40 @@ export const advantages = [
 ]
 
 export const countries = [
+  {
+		id: 7,
+		code: "CD",
+		name: "Congo-Kinshasa"
+	},
 	{
-		popular: [
-			{
-				id: 0,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 1,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 2,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 3,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 4,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 5,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 6,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			}
-		],
-		active: [
-			{
-				id: 0,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 1,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 2,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 3,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 4,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 5,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 6,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			}
-		],
-		others: [
-			{
-				id: 0,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 1,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 2,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 3,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 4,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 5,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 6,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 7,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 8,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 9,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 10,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 11,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 12,
-				code: "CD",
-				name: "Congo-Kinshasa"
-			},
-			{
-				id: 13,
-				code: "CD",
-				name: "Plus 150+ autres pays"
-			}
-		]
+		id: 8,
+		code: "CD",
+		name: "Congo-Kinshasa"
+	},
+	{
+		id: 9,
+		code: "CD",
+		name: "Congo-Kinshasa"
+	},
+	{
+		id: 10,
+		code: "CD",
+		name: "Congo-Kinshasa"
+	},
+	{
+		id: 11,
+		code: "CD",
+		name: "Congo-Kinshasa"
+	},
+	{
+		id: 12,
+		code: "CD",
+		name: "Congo-Kinshasa"
+	},
+	{
+		id: 13,
+		code: "CD",
+		name: "Plus 150+ autres pays"
 	}
 ]
 

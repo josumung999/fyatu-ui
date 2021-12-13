@@ -1,0 +1,33 @@
+.countries {
+  padding: 48px 0;
+
+  .h2 {
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .lead {
+    font-weight: 400;
+  }
+
+
+  .country-list {
+    padding: 64px 0;
+
+
+  
+    .h3 {
+      margin-bottom: 16px;
+    }
+  
+    .list-group-item {
+      border: none;
+      font-weight: 500;
+      font-size: 15px;
+    }
+  
+    .country-code {
+      color: #973873
+    }
+  }
+}
