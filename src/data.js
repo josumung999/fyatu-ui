@@ -38,7 +38,7 @@ export const whyUseUs = [
 	},
 ]
 
-export const advantadges = [
+export const advantages = [
 	{
 		id: 0,
 		img: "https://sandbox.fyatu.com/assets/img/icons/credit-card2.png",
