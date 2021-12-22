@@ -1,5 +1,8 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './globals.scss'
 import './App.scss';
+
+// Importing bootstrap js files
+import 'bootstrap/dist/js/bootstrap.bundle';
 
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/Hero';
