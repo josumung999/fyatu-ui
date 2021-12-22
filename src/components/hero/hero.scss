@@ -1,8 +1,8 @@
 .hero {
+  margin-top: 70px;
 
     .h1 {
       font-weight: 700;
-      font-size: 11.3rem;
 
       span {
         color: #ffad0a;
@@ -15,15 +15,6 @@
       font-weight: 400;
     }
 
-    .action-buttons {
-      margin-bottom: 3rem;
-
-      .btn {
-        color: rgb(42, 42, 42);
-        font-weight: bold;
-      }
-    }
-
     .row {
       padding-top: 32px;
     }
@@ -31,12 +22,12 @@
   }
 
   .right {
-    flex: 0.3;
 
     .imgContainer {
-      width: 450px;
-      height: 450px;
-      margin-top: 4rem;
+      width: 400px;
+      height: 400px;
+      margin-top: 2rem;
+
       img {
         width: 100%;
       }
