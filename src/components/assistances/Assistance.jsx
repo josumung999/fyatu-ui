@@ -28,7 +28,7 @@ const Assistance = () => {
               Une équipe déterminée pour vous apporter les solutions à tout problème 
               lié avec votre compte. Nous sommes très poli et très courtois envers nos clients
             </p>
-            <div className="action-buttons">
+            <div className="mt-5 d-flex">
               <button className="btn btn-primary">
                 Trouver la Solution <i className="fas fa-arrow-right"></i>
               </button>

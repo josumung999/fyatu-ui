@@ -4,79 +4,68 @@ import './countries.scss'
 
 const Countries = () => {
   return (
-    <div className="countries">
-      <div className="container">
-        <h2 className="h2 text-center">
+    <section className="slice slice-lg bg-white">
+      <div className="container position-relative zindex-100">
+        <h2 className="h2 text-center text-black">
         Réjoignez notre Communauté Globale
         </h2>
-        <p className="lead text-center">
+        <p className="lead text-center lh-180 text-black">
           De millier d'utilisateurs dans le monde ont choisit Fyatu pour simplifier et sécuriser leur paiement en ligne.
         </p>
-        <div className="row country-list">
-          <div className="col-6">
-            <div className="row">
-              <div className="col-6">
-                <h3 className="h3">Pays Populaires</h3>
-                {/* Countries */}
-                {countries.map(({ id, code, name }) => (
-                  <ul key={id} className="list-group list-group-horizontal">
-                    <li className="country-code list-group-item">
-                      {code}
-                    </li>
-                    <li className="list-group-item">
-                      {name}
-                    </li>
-                  </ul>
-                ))}
+        <div className="row">
+          <div className="col-6 col-md-6 col-lg-3 mb-4">
+            <h4 className="font-weight-bold text-black mb-5">Pays Populaires</h4>
+            {/* Countries */}
+            {countries.map(({ id, code, name }) => (
+              <div className="d-flex align-items-center mb-3">
+                <div key={id}>
+                  <span>{code}</span>
+                  <span className="ml-3 text-black">{name}</span> 
+                </div>
               </div>
-              <div className="col-6">
-                <h3 className="h3">Pays Actifs</h3>
-                {/* Countries */}
-                {countries.map(({ id, code, name }) => (
-                  <ul key={id} className="list-group list-group-horizontal">
-                    <li className="country-code list-group-item">
-                      {code}
-                    </li>
-                    <li className="list-group-item">
-                      {name}
-                    </li>
-                  </ul>
-                ))}
-              </div>
-            </div>
+            ))}
           </div>
-          <div className="col-6">
-            <div className="row">
-              <h3 className="h3">Autres Pays</h3>
-              <div className="col-6">
-              {countries.map(({ id, code, name }) => (
-                  <ul key={id} className="list-group list-group-horizontal">
-                    <li className="country-code list-group-item">
-                      {code}
-                    </li>
-                    <li className="list-group-item">
-                      {name}
-                    </li>
-                  </ul>
-                ))}
+          <div className="col-6 col-md-6 col-lg-3 mb-4">
+            <h4 className="font-weight-bold text-black mb-5">Pays Actifs</h4>
+            {/* Countries */}
+            {countries.map(({ id, code, name }) => (
+              <div className="d-flex align-items-center mb-3">
+                <div key={id}>
+                  <span>{code}</span>
+                  <span className="ml-3 text-black">{name}</span> 
+                </div>
               </div>
-              <div className="col-6">
-              {countries.map(({ id, code, name }) => (
-                  <ul key={id} className="list-group list-group-horizontal">
-                    <li className="country-code list-group-item">
-                      {code}
-                    </li>
-                    <li className="list-group-item">
-                      {name}
-                    </li>
-                  </ul>
-                ))}
+            ))}
+          </div>
+          <div className="col-6 col-md-6 col-lg-3 mb-4">
+            <h4 className="font-weight-bold text-black mb-5">Autres Pays</h4>
+            {/* Countries */}
+            {countries.map(({ id, code, name }) => (
+              <div className="d-flex align-items-center mb-3">
+                <div key={id}>
+                  <span>{code}</span>
+                  <span className="ml-3 text-black">{name}</span> 
+                </div>
               </div>
-            </div>
+            ))}
+          </div>
+          <div className="col-6 col-md-6 col-lg-3 mb-4">
+            {/* Countries */}
+            <h4 className="font-weight-bold text-white mb-5">
+              <span className="opacity-0">Europe</span>
+            </h4>
+            {countries.map(({ id, code, name }) => (
+              <div className="d-flex align-items-center mb-3">
+                <div key={id}>
+                  <span>{code}</span>
+                  <span className="ml-3 text-black">{name}</span> 
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
