@@ -3,99 +3,92 @@ import './footer.scss';
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="container">
-        <div className="row">
-          <div className="col-3">
-            <h4 className="h4 my-4">Services</h4>
-            <ul className="list-group">
-              {footerLinks.map(({ id, text }) => (
-                <li key={id} className="list-group-item">
-                  <a href="!#" className="footerLink text-dark">
-                    {text}
-                  </a>
-                </li>   
-              ))}
-            </ul>
-          </div>
-          <div className="col-3">
-            <h4 className="h4 my-4">Services</h4>
-            <ul className="list-group">
-              {footerLinks.map(({ id, text }) => (
-                <li key={id} className="list-group-item">
-                  <a href="!#" className="footerLink text-dark">
-                    {text}
-                  </a>
-                </li>   
-              ))}
-            </ul>
-          </div>
-          <div className="col-3">
-            <h4 className="h4 my-4">Informations</h4>
-            <ul className="list-group">
-              {footerLinks.map(({ id, text }) => (
-                <li key={id} className="list-group-item">
-                  <a href="!#" className="footerLink text-dark">
-                    {text}
-                  </a>
-                </li>   
-              ))}
-            </ul>
-          </div>
-          <div className="col-3">
-            <h4 className="h4 my-4">Entreprise</h4>
-            <ul className="list-group">
-              {footerLinks.map(({ id, text }) => (
-                <li key={id} className="list-group-item">
-                  <a href="!#" className="footerLink text-dark">
-                    {text}
-                  </a>
-                </li>   
-              ))}
-            </ul>
-          </div>
-        </div>
-        <hr className="my-4" />
-        <p className="lead my-4">
-        Fyatu est un produit de MerciPro. Une entreprise agréée par le gouvernement congolais et enregistrée sous les numéros: 
-        </p>
-        <ul className="list-group">
-          <li className="list-group-item">
-            RCCM: CD/BKV/RCCM/18-A-3358
-          </li>
-          <li className="list-group-item">
-            ID.NAT: 5-73-N44630X 
-          </li>
-          <li className="list-group-item">
-            Adresse: 82 Av. PE Lumumba, Ibanda - Bukavu 
-          </li>
-        </ul>
-        <hr className="my-4" />
-        <div className="row">
-          <div className="col">
-            <p className="h6">
-              © 2020 FYATU - Tous droits réservés.
-            </p>
-          </div>
-          <div className="col">
-            <div className="row justify-content-end">
-              <ul className="list-group list-group-horizontal">
-                <li className="list-group-item">
-                  <a href="!#" className="text-secondary">
-                    Termes et Conditions
-                  </a>
-                </li>
-                <li className="list-group-item">
-                  <a href="!#" className="text-secondary">
-                    Confidentialité
-                  </a>
-                </li>
+    <footer className="position-relative" id="footer-main">
+      <div className="footer footer-light bg-light">
+        <div className="container pt-2">
+          <div className="row">
+            <div className="col-lg-3 col-6 col-sm-4 ml-lg-auto mb-5 ml-lg-0">
+              <h6 className="heading mb-3">Services</h6>
+              <ul className="list-unstyled">
+                {footerLinks.map(({ id, text }) => (
+                  <li key={id}>
+                    <a href="!#" className="footerLink text-dark">
+                      {text}
+                    </a>
+                  </li>   
+                ))}
               </ul>
+            </div>
+            <div className="col-lg-3 col-6 col-sm-4 ml-lg-auto mb-5 ml-lg-0">
+              <h6 className="heading mb-3">Services</h6>
+              <ul className="list-unstyled">
+                {footerLinks.map(({ id, text }) => (
+                  <li key={id}>
+                    <a href="!#" className="footerLink text-dark">
+                      {text}
+                    </a>
+                  </li>   
+                ))}
+              </ul>
+            </div>
+            <div className="col-lg-3 col-6 col-sm-4 ml-lg-auto mb-5 ml-lg-0">
+              <h6 className="heading mb-3">Informations</h6>
+              <ul className="list-unstyled">
+                {footerLinks.map(({ id, text }) => (
+                  <li key={id}>
+                    <a href="!#" className="footerLink text-dark">
+                      {text}
+                    </a>
+                  </li>   
+                ))}
+              </ul>
+            </div>
+            <div className="col-lg-3 col-6 col-sm-4 ml-lg-auto mb-5 ml-lg-0">
+              <h6 className="heading mb-3">Entreprise</h6>
+              <ul className="list-unstyled">
+                {footerLinks.map(({ id, text }) => (
+                  <li key={id}>
+                    <a href="!#" className="footerLink text-dark">
+                      {text}
+                    </a>
+                  </li>   
+                ))}
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <p className="mt-4 text-black pr-lg-4">
+            Fyatu est un produit de <stron>MerciPro.</stron> Une entreprise agréée par le gouvernement congolais et enregistrée sous les numéros:<br/>
+            RCCM: <strong>CD/BKV/RCCM/18-A-3358</strong><br/> ID.NAT: <strong>5-73-N44630X</strong><br />
+            Adresse: <strong>82 Av. PE Lumumba, Ibanda - Bukavu</strong>
+          </p>
+          <hr/>
+          <div className="row align-items-center justify-content-md-between">
+            <div className="col-md-6 text-center">
+              <p className="copyright text-black">
+                © 2022 FYATU - Tous droits réservés.
+              </p>
+            </div>
+            <div className="col">
+              <div className="row justify-content-md-end mt-3 mt-md-0">
+                <ul className="nav justify-content-center justify-content-md-end mt-3 mt-md-0">
+                  <li className="nav-item">
+                    <a href="!#" className='nav-link'>
+                      Termes et Conditions
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="!#" className='nav-link'>
+                      Confidentialité
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
 
