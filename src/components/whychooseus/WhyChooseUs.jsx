@@ -8,7 +8,7 @@ const WhyChoosUs = () => {
         <div className="row mb-5 justify-content-center text-center">
           <div className="col-lg-12">
             <h6 className="h1 text-black">
-              Pourquoi +30,O00 clients nous font confiance ?
+              Pourquoi +30,000 clients nous font confiance ?
             </h6>
             <div className="mt-2">
               <p className="lead lh-200 text-black">
